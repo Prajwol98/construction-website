@@ -1,159 +1,127 @@
-//about-top-section
-.about-top-section {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $white;
-    text-align: center;
-    font-family: $font-primary;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 57.6px;
-    margin-bottom: 2rem;
-    span {
-      color: $primary;
-      font-family: $font-primary;
-      font-size: 3rem;
-      font-weight: 400;
-      line-height: 120%;
+//
+.About-Pandey-Dhunga-Suppliers-wrapper {
+  margin-bottom: 60px;
+  .left-side-wrapper {
+    margin-top: 76px;
+    h2 {
+      color: #201a1a;
+      font-family: Nacelle;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 42px;
+      span {
+        color: #da251e;
+        font-family: Nacelle;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 42px;
+      }
     }
-  }
-  p {
-    color: $white;
-    font-family: $font-secondary;
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 25.2px;
-    margin-bottom: 4.375rem;
-  }
-  .about-gallery-section {
-    display: flex;
-    flex-wrap: wrap;
-    .inner-image-wrapper {
-      width: 20%;
-      padding: 0.625rem;
-      margin-bottom: 0.625rem;
-      @media (max-width: 1024px) {
-        width: 33.33%;
-      }
-      @media (max-width: 768px) {
-        width: 50%;
-      }
-      @media (max-width: 600px) {
-        width: 50%;
-      }
-      img {
-        width: 100%;
-        height: 8.75rem;
-        object-fit: cover;
-      }
+    p {
+      color: #62605f;
+      font-family: "Be Vietnam Pro";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-bottom: 32px;
     }
   }
 }
 
-.form-wrapper {
-  .title {
-    color: $white;
-    text-align: center;
-    font-family: $font-primary;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 38.4px;
-    letter-spacing: -1.28px;
-    margin-bottom: 2rem;
-    span {
-      color: $primary;
-      font-family: $font-primary;
-      font-size: 2rem;
-      font-weight: 400;
-      line-height: 120%;
-      letter-spacing: -1.28px;
-    }
+// project-complete-wrapper
+.project-complete-wrapper {
+  margin-bottom: 200px;
+  .line {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #da251e;
   }
-  .inner-form-wrapper {
-    background: #1d271d;
-    padding: 2rem 6.375rem;
-    .title-wrapper {
-      margin-bottom: 3rem;
+  .line::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #62605f;
+    top: 3px;
+  }
+  .main-wrapper {
+    margin-top: 48px;
+    display: flex;
+    .svg-section {
+      margin-right: 25px;
+      margin-left: 20px;
+    }
+    .info-sec {
       h1,
       h2,
       h3,
       h4,
       h5,
       h6 {
-        color: $white;
-        text-align: center;
-        font-family: $font-primary;
-        font-size: 1.5rem;
-        font-weight: 400;
-        line-height: 28.8px;
-        letter-spacing: -0.96px;
-        margin-bottom: 0.75rem;
+        color: #201a1a;
+        font-family: Nacelle;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 34px;
       }
       p {
-        color: $white;
-        text-align: center;
-        font-family: $font-secondary;
-        font-size: 1.125rem;
-        font-weight: 400;
-        line-height: 25.2px;
-        margin: 0;
+        color: #62605f;
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
       }
     }
-    input,
-    select,
-    textarea {
-      background: #303930;
-      padding: 0.8125rem 1.5rem;
-      color: $primary;
-      font-family: $font-secondary;
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 22.4px;
-      border: none;
-      border-radius: 0;
-      outline: none;
-      width: 100%;
-      &::placeholder {
-        color: #6e746e;
-        font-family: $font-secondary;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 22.4px;
-      }
-      &:focus {
-        border: 1px solid $primary;
-        outline: none;
-      }
+  }
+}
+
+.mission-card-wrapper {
+  margin-bottom: 124px;
+  .main-card-wrapper {
+    height: 385px;
+    border: 1px solid rgba(218, 37, 30, 0.3);
+    background: #f8f7f7;
+    .svg-wrapper {
+      margin-top: 36px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 48px;
     }
-    textarea {
-      resize: none;
-    }
-    .select {
-      position: relative;
-      &::before {
+    .card-info-wrapper {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        position: relative;
+        color: #201a1a;
+        font-family: Nacelle;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        margin: 0px 0px 16px 24px;
+      }
+      h2::before {
         content: "";
-        background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7L10 12L15 7' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
-        background-repeat: no-repeat;
-        width: 1.25rem;
-        height: 1.25rem;
-        object-fit: contain;
         position: absolute;
-        display: block;
-        right: 0.5rem;
-        top: 14px;
-        z-index: 9;
+        width: 53px;
+        height: 8px;
+        background: #da251e;
+        top: -10px;
+        margin: 0px 299px 8px 0px;
       }
-    }
-    select {
-      position: relative;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      &:first-child {
-        color: #6e746e;
+
+      p {
+        color: var(--Paragraph, #62605f);
+        width: 328px;
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 0px 24px 32px 24px;
       }
     }
   }

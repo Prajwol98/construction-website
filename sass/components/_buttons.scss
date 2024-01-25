@@ -1,8 +1,24 @@
-.btn {
-  display: inline-block;
-  @include transition();
-
-  &:hover {
-    transform: scale(1.1);
+.contact-us-link-wrapper {
+  a {
+    color: var(--White, #fff);
+    font-family: "Be Vietnam Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      display: inline-flex;
+      padding: 12px 28px;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      border: 1px solid #da251e;
+      background: #da251e;
+    }
   }
 }

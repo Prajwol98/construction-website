@@ -21,12 +21,36 @@ $paragraph-color: #545454;
 /* ALL COLORS END */
 
 /* ALL FONTS START */
-// font-family: 'Onest', sans-serif;
 
-$font-primary: "Arbutus", serif;
-$font-secondary: "Rubik", sans-serif;
+$font-primary: "Be Vietnam Pro", serif;
+$font-secondary: "Nacelle", sans-serif;
 
-/* ALL COLORS END */
+@font-face {
+  font-family: "Nacelle-Black";
+  src: url(assets/fonts/Nacelle-Black.otf);
+}
+@font-face {
+  font-family: "Nacelle-BlackItalic";
+  src: url(assets/fonts/Nacelle-BlackItalic.otf);
+}
+@font-face {
+  font-family: "Nacelle-Bold";
+  src: url(assets/fonts/Nacelle-Bold.otf);
+}
+@font-face {
+  font-family: "Nacelle-BoldItalic";
+  src: url(assets/fonts/Nacelle-BoldItalic.otf);
+}
+@font-face {
+  font-family: "Nacelle-Heavy";
+  src: url(assets/fonts/Nacelle-Heavy.otf);
+}
+@font-face {
+  font-family: "Nacelle-HeavyItalic";
+  src: url(assets/fonts/Nacelle-HeavyItalic.otf);
+}
+
+/* ALL FONTS END */
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "base/mixins";
@@ -40,6 +64,8 @@ $font-secondary: "Rubik", sans-serif;
 @import "pages/contact";
 @import "pages/detail";
 @import "pages/contact";
+@import "pages/gap-2-woocommerce-fixes";
 @import "components/buttons";
 @import "components/slider";
 @import "components/banner";
+@import "components/details";
