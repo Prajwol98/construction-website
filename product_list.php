@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite.png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -23,7 +23,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (2).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -33,7 +33,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (3).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -43,7 +43,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (4).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -53,7 +53,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (5).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -63,7 +63,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (6).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -73,7 +73,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (7).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -83,7 +83,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (8).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -93,7 +93,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (9).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -103,7 +103,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (10).png" alt="granite">
           </a>
           <div class="title-wrapper">
@@ -113,7 +113,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (9).png" alt=" granite">
           </a>
           <div class="title-wrapper">
@@ -123,7 +123,7 @@
       </div>
       <div class="col-4">
         <div class="product-card-wrapper">
-          <a href="">
+          <a href="product_detail.php">
             <img src="assets/img/granite (12).png" alt="granite">
           </a>
           <div class="title-wrapper">

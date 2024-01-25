@@ -158,7 +158,7 @@ $page = end($link_array);
               <a href="aboutus.php">About Us</a>
             </li>
             <li>
-              <a href="detail.php">Products</a>
+              <a href="product_list.php">Products</a>
             </li>
             <li>
               <a href="#">Service</a>
@@ -167,7 +167,7 @@ $page = end($link_array);
               <a href="#">Projects</a>
             </li>
             <li>
-              <a href="#">Contacy Us</a>
+              <a href="#">Contact Us</a>
             </li>
 
           </ul>
